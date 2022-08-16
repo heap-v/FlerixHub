@@ -36,3 +36,23 @@ btns:Button(
 )
 
 btns:Seperator()
+
+btns:Button(
+    "Open ALL Doors",
+    function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/heap-v/NicosNextBot/main/Openalldoors.lua", true))()
+        DiscordLib:Notification("Notification", "Done!", "ty.")
+    end
+)
+
+btns:Seperator()
+
+btns:Button(
+    "Fullbright",
+    function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/heap-v/NicosNextBot/main/FB.lua", true))()
+        DiscordLib:Notification("Notification", "Done!", "ty.")
+    end
+)
+
+btns:Seperator()
