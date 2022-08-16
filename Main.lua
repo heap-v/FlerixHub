@@ -78,7 +78,11 @@ btns:Button(
     end
 )
 
-btns:Seperator()
+
+local lbls = serv:Channel("Credits") -- New channel in server
+
+lbls:Label("Flerix Hub was created by heap#3866 & s15_#0338")
+lbls:Label("We also own a discord server called 'Wanted Studio'")
 
 local serv = win:Server("Specter", "")
 -- SPECTER SCRIPT ⬇⬇⬇⬇
@@ -144,8 +148,15 @@ btns:Button(
     end
 )
 
-btns:Seperator()
 
+local lbls = serv:Channel("Credits") -- New channel in server
+
+lbls:Label("Flerix Hub was created by heap#3866 & s15_#0338")
+lbls:Label("We also own a discord server called 'Wanted Studio'")
+
+-- PRESSURE WASH SCRIPT ⬇⬇⬇⬇
+-- PRESSURE WASH SCRIPT ⬇⬇⬇⬇
+-- PRESSURE WASH SCRIPT ⬇⬇⬇⬇
 local serv = win:Server("Pressure Wash Simulator", "") -- Create new server
 
 local btns = serv:Channel("Functions") -- New channel in server
@@ -167,3 +178,8 @@ btns:Button(
         DiscordLib:Notification("Notification", "Done!", "ty.")
     end
 )
+
+local lbls = serv:Channel("Credits") -- New channel in server
+
+lbls:Label("Flerix Hub was created by heap#3866 & s15_#0338")
+lbls:Label("We also own a discord server called 'Wanted Studio'")
