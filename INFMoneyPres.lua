@@ -1,4 +1,4 @@
-_G.Clean = true -- Change to false to stop.
+_G.Clean = true
 while _G.Clean and wait(.1) do
 game:GetService("ReplicatedStorage").Remotes.RefillRemote:FireServer(true)
 game:GetService("ReplicatedStorage").Remotes.SurfaceCompleted:FireServer(math.huge, math.huge)
