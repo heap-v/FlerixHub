@@ -1,7 +1,7 @@
 local DiscordLib =
     loadstring(game:HttpGet "https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord")()
 
-local win = DiscordLib:Window("Flerix Hub - heap#3866")
+local win = DiscordLib:Window("Flerix Hub - heap#3866 + s15_#0338")
 
 local serv = win:Server("Nicos Nextbot", "")
 
