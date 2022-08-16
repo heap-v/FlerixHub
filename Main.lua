@@ -72,7 +72,7 @@ local serv = win:Server("Specter", "")
 local btns = serv:Channel("Functions")
 
 btns:Button(
-    "Fullbright - 🟠",
+    "Fullbright - 🟢",
     function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/heap-v/NicosNextBot/main/FB.lua", true))()
         DiscordLib:Notification("Notification", "Done!", "ty.")
@@ -92,7 +92,7 @@ btns:Button(
 btns:Seperator()
 
 btns:Button(
-    "Unlock ALL Gamepasses - 🟠",
+    "Unlock ALL Gamepasses - 🔴",
     function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/heap-v/FlerixHub/main/SPECUNAG.lua", true))()
         DiscordLib:Notification("Notification", "Done!", "ty.")
@@ -102,7 +102,7 @@ btns:Button(
 btns:Seperator()
 
 btns:Button(
-    "Check Ghost Orbs - 🟢",
+    "Check Ghost Orbs - 🔴",
     function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/heap-v/FlerixHub/main/CheckGO.lua", true))()
         DiscordLib:Notification("Notification", "Done!", "ty.")
