@@ -3,6 +3,19 @@ local DiscordLib =
 
 local win = DiscordLib:Window("Flerix Hub - heap#3866 + s15_#0338")
 
+
+local serv = win:Server("Wanted Studio", "") -- Create new server
+
+local btns = serv:Channel("Discord Invite") -- New channel in server
+
+btns:Button(
+    "Support 👷‍♂️",
+    function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/heap-v/FlerixHub/main/DiscordInvite.lua", true))()
+        DiscordLib:Notification("Notification", "Joined!", "ty.")
+    end
+)
+
 local serv = win:Server("Nicos Nextbot", "") -- Create new server
 
 local btns = serv:Channel("Functions") -- New channel in server
