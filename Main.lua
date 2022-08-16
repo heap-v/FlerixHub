@@ -3,9 +3,9 @@ local DiscordLib =
 
 local win = DiscordLib:Window("Flerix Hub - heap#3866 + s15_#0338")
 
-local serv = win:Server("Nicos Nextbot", "http://www.roblox.com/asset/?id=10599864530")
+local serv = win:Server("Nicos Nextbot", "") -- Create new server
 
-local btns = serv:Channel("Functions")
+local btns = serv:Channel("Functions") -- New channel in server
 
 btns:Button(
     "Powerbox ESP + Bot ESP - 🟢",
@@ -68,7 +68,9 @@ btns:Button(
 btns:Seperator()
 
 local serv = win:Server("Specter", "")
-
+-- SPECTER SCRIPT ⬇⬇⬇⬇
+-- SPECTER SCRIPT ⬇⬇⬇⬇
+-- SPECTER SCRIPT ⬇⬇⬇⬇
 local btns = serv:Channel("Functions")
 
 btns:Button(
@@ -95,7 +97,7 @@ btns:Button(
     "Unlock ALL Gamepasses - 🔴",
     function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/heap-v/FlerixHub/main/SPECUNAG.lua", true))()
-        DiscordLib:Notification("Notification", "Done!", "ty.")
+        DiscordLib:Notification("Notification", "THIS SCRIPT IS NOT WORKING / UNSAFE!", "Ok.")
     end
 )
 
@@ -105,7 +107,7 @@ btns:Button(
     "Check Ghost Orbs - 🔴",
     function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/heap-v/FlerixHub/main/CheckGO.lua", true))()
-        DiscordLib:Notification("Notification", "Done!", "ty.")
+        DiscordLib:Notification("Notification", "THIS SCRIPT IS NOT WORKING / UNSAFE!", "Ok.")
     end
 )
 
