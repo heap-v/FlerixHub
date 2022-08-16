@@ -26,3 +26,13 @@ btns:Button(
 )
 
 btns:Seperator()
+
+btns:Button(
+    "SEMI-Godmode",
+    function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/heap-v/NicosNextBot/main/Semi-Godmode.lua", true))()
+        DiscordLib:Notification("Notification", "Done!", "ty.")
+    end
+)
+
+btns:Seperator()
