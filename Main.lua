@@ -3,7 +3,7 @@ local DiscordLib =
 
 local win = DiscordLib:Window("Flerix Hub - heap#3866 + s15_#0338")
 
-local serv = win:Server("Nicos Nextbot", "")
+local serv = win:Server("Nicos Nextbot", "http://www.roblox.com/asset/?id=10599864530")
 
 local btns = serv:Channel("Functions")
 
