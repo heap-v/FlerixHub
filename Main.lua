@@ -145,3 +145,25 @@ btns:Button(
 )
 
 btns:Seperator()
+
+local serv = win:Server("Pressure Wash Simulator", "") -- Create new server
+
+local btns = serv:Channel("Functions") -- New channel in server
+
+btns:Button(
+    "Infinite Money Script",
+    function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/heap-v/FlerixHub/main/INFMoneyPres.lua", true))()
+        DiscordLib:Notification("Notification", "Done!", "ty.")
+    end
+)
+
+btns:Seperator()
+
+btns:Button(
+    "Infinite Water Script",
+    function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/heap-v/FlerixHub/main/INFWaterPres.lua", true))()
+        DiscordLib:Notification("Notification", "Done!", "ty.")
+    end
+)
