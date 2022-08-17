@@ -4,7 +4,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/heap-v/FlerixHub/main
 if game.PlaceId == 10118559731 then
 local DiscordLib =
     loadstring(game:HttpGet "https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord")()
-local win = DiscordLib:Window("Flerix Hub - heap#3866 + s15_#0338 - Nicos Nextbot")
+local win = DiscordLib:Window("Flerix Hub - heap#3866 + s15_#0338")
 
 local serv = win:Server("Flerix Hub", "http://www.roblox.com/asset/?id=10625452220") -- Create new server
 
@@ -17,14 +17,14 @@ lbls:Label("Brought to you by Wanted Studio")
 local btns = serv:Channel("Discord Support") -- New channel in server
 
 btns:Button(
-    "Support",
+    "Flerixhub",
     function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/heap-v/FlerixHub/main/Discord2.lua", true))()
         DiscordLib:Notification("Notification", "Joined!", "ty.")
     end
 )
 btns:Button(
-    "WantedStudio",
+    "Wanted Studio",
     function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/heap-v/FlerixHub/main/DiscordInvite.lua", true))()
         DiscordLib:Notification("Notification", "Joined!", "ty.")
@@ -264,7 +264,7 @@ btns:Button(
     end
 )
 btns:Button(
-    "WantedStudio",
+    "Wanted Studio",
     function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/heap-v/FlerixHub/main/Discord2.lua", true))()
         DiscordLib:Notification("Notification", "Joined!", "ty.")
