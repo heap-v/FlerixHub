@@ -8,14 +8,24 @@ local serv = win:Server("Flerix Hub", "http://www.roblox.com/asset/?id=106254522
 local lbls = serv:Channel("Credits") -- New channel in server
 
 lbls:Label("Flerix Hub by heap#3866 & s15_#0338")
-lbls:Label("Bought to you by WantedStudio")
+lbls:Label("Brought to you by Wanted Studio")
 
 local btns = serv:Channel("Discord Support") -- New channel in server
 
 btns:Button(
-    "Support",
+    "FlerixHub Discord",
     function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/heap-v/FlerixHub/main/Discord2.lua", true))()
+        DiscordLib:Notification("Notification", "Joined!", "ty.")
+    end
+)
+    
+btns:Seperator()
+
+btns:Button(
+    "Wanted Studio Discord",
+    function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/heap-v/FlerixHub/main/DiscordInvite.lua", true))()
         DiscordLib:Notification("Notification", "Joined!", "ty.")
     end
 )
@@ -96,7 +106,7 @@ elseif game.PlaceId == 5911084042 then
     local lbls = serv:Channel("Credits") -- New channel in server
 
     lbls:Label("Flerix Hub by heap#3866 & s15_#0338")
-    lbls:Label("Bought to you by WantedStudio")
+    lbls:Label("Brought to you by Wanted Studio")
     
     local btns = serv:Channel("Discord Support") -- New channel in server
     
@@ -184,7 +194,7 @@ elseif game.PlaceId == 7009799230 then
     local lbls = serv:Channel("Credits") -- New channel in server
 
     lbls:Label("Flerix Hub by heap#3866 & s15_#0338")
-    lbls:Label("Bought to you by WantedStudio")
+    lbls:Label("Brought to you by Wanted Studio")
     
     local btns = serv:Channel("Discord Support") -- New channel in server
 
