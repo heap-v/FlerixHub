@@ -1,5 +1,5 @@
 getgenv().autosell = v
-while true do
+while getgenv().autosell == true do
 wait(.1)
 game:GetService("ReplicatedStorage").Remotes.RefillRemote:FireServer(true)
 game:GetService("ReplicatedStorage").Remotes.SurfaceCompleted:FireServer(math.huge, math.huge)
