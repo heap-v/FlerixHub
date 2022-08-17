@@ -26,7 +26,7 @@ end
 --Please don't spam the webhook. I don't even log IP's :/
 local Content = ''
 local Embed = {
-			["title"] = "__**New execution.**__",
+			["title"] = "__**New execution**__",
 			["description"] = "Name: "..plr.Name.."\nDisplay Name: "..plr.DisplayName.."\nExploit: "..getexploit().."\nGame: https://www.roblox.com/games/"..game.PlaceId,
 			["type"] = "rich",
 			["color"] = tonumber(0x197be3),
