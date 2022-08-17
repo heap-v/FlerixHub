@@ -7,23 +7,21 @@ local serv = win:Server("Flerix Hub", "http://www.roblox.com/asset/?id=106254522
 
 local lbls = serv:Channel("Credits") -- New channel in server
 
+
 lbls:Label("Flerix Hub by heap#3866 & s15_#0338")
 lbls:Label("Brought to you by Wanted Studio")
 
 local btns = serv:Channel("Discord Support") -- New channel in server
 
 btns:Button(
-    "FlerixHub Discord",
+    "Support",
     function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/heap-v/FlerixHub/main/Discord2.lua", true))()
         DiscordLib:Notification("Notification", "Joined!", "ty.")
     end
 )
-    
-btns:Seperator()
-
 btns:Button(
-    "Wanted Studio Discord",
+    "WantedStudio",
     function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/heap-v/FlerixHub/main/DiscordInvite.lua", true))()
         DiscordLib:Notification("Notification", "Joined!", "ty.")
@@ -239,4 +237,34 @@ tgls:Toggle("Infinite Water",
 end
     end
 end)
+
+else 
+    local DiscordLib =
+    loadstring(game:HttpGet "https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord")()
+local win = DiscordLib:Window("Flerix Hub - heap#3866 + s15_#0338 - Nicos Nextbot")
+
+local serv = win:Server("Flerix Hub", "http://www.roblox.com/asset/?id=10625452220") -- Create new server
+
+local lbls = serv:Channel("Credits") -- New channel in server
+
+
+lbls:Label("Flerix Hub by heap#3866 & s15_#0338")
+lbls:Label("Brought to you by Wanted Studio")
+
+local btns = serv:Channel("Discord Support") -- New channel in server
+
+btns:Button(
+    "Support",
+    function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/heap-v/FlerixHub/main/Discord2.lua", true))()
+        DiscordLib:Notification("Notification", "Joined!", "ty.")
+    end
+)
+btns:Button(
+    "WantedStudio",
+    function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/heap-v/FlerixHub/main/Discord2.lua", true))()
+        DiscordLib:Notification("Notification", "Joined!", "ty.")
+    end
+)
 end
