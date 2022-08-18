@@ -243,5 +243,5 @@ end)
 
 
 else
-loadstring(game:HttpGet("https://raw.githubusercontent.com/heap-v/FlerixHub/main/Universal", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/heap-v/FlerixHub/main/Universal.lua", true))()
 end
