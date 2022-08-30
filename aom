@@ -1,0 +1,70 @@
+local DiscordLib =
+    loadstring(game:HttpGet "https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord")()
+local win = DiscordLib:Window("Flerix Hub - heap#3866 + s15_#0338")
+
+local serv = win:Server("Flerix Hub", "http://www.roblox.com/asset/?id=10625452220") -- Create new server
+
+local lbls = serv:Channel("Credits") -- New channel in server
+
+
+lbls:Label("Flerix Hub by heap#3866 & s15_#0338")
+lbls:Label("Brought to you by Wanted Studio")
+
+local btns = serv:Channel("Discord Support") -- New channel in server
+
+btns:Button(
+    "Support",
+    function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/heap-v/FlerixHub/main/Discord2.lua", true))()
+        DiscordLib:Notification("Notification", "Joined!", "ty.")
+    end
+)
+btns:Button(
+    "Wanted Studio",
+    function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/heap-v/FlerixHub/main/Discord2.lua", true))()
+        DiscordLib:Notification("Notification", "Joined!", "ty.")
+    end
+)
+
+local serv = win:Server("Criminality"), ("") -- Create new server
+
+local btns = serv:Channel("General") -- New channel in server
+
+btns:Button(
+    "Aimbot",
+    function()
+   loadstring(game:HttpGet("https://pastebin.com/rpM0k2PN",true))()
+    end
+)
+
+btns:Seperator()
+  
+btns:Button(
+    "Scrap ESP",
+    function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/heap-v/FlerixHub/main/zzz.lua",true))()
+    end
+)
+
+
+btns:Button(
+    "Tool ESP",
+    function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/Y54gL8vU",true))()
+    end
+)
+          
+btns:Button(
+    "Cash ESP",
+    function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/jRqNy2gG",true))()
+    end
+)
+
+btns:Button(
+    "Cash Register ESP",
+    function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/gaSJtKrp",true))()
+    end
+)
