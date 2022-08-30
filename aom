@@ -29,16 +29,16 @@ btns:Button(
 
 local serv = win:Server("Criminality"), ("") -- Create new server
 
-local btns = serv:Channel("General") -- New channel in server
+local crim = serv:Channel("General") -- New channel in server
 
-btns:Button(
+crim:Button(
     "Aimbot",
     function()
    loadstring(game:HttpGet("https://pastebin.com/rpM0k2PN",true))()
     end
 )
 
-btns:Seperator()
+crim:Seperator()
   
 btns:Button(
     "Scrap ESP",
@@ -48,23 +48,24 @@ btns:Button(
 )
 
 
-btns:Button(
+crim:Button(
     "Tool ESP",
     function()
    loadstring(game:HttpGet("https://pastebin.com/raw/Y54gL8vU",true))()
     end
 )
           
-btns:Button(
+crim:Button(
     "Cash ESP",
     function()
    loadstring(game:HttpGet("https://pastebin.com/raw/jRqNy2gG",true))()
     end
 )
 
-btns:Button(
+crim:Button(
     "Cash Register ESP",
     function()
    loadstring(game:HttpGet("https://pastebin.com/raw/gaSJtKrp",true))()
     end
 )
+end)
