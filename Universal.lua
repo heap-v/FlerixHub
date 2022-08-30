@@ -1,5 +1,5 @@
 local DiscordLib =
-loadstring(game:HttpGet "https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord")()
+loadstring(game:HttpGet "https://raw.githubusercontent.com/s15x/WantedStudio/main/Discord")()
 local win = DiscordLib:Window("Flerix Hub - heap#3866 + s15_#0338 - Universal")
 
 local serv = win:Server("Flerix Hub", "http://www.roblox.com/asset/?id=10625452220") -- Create new server
