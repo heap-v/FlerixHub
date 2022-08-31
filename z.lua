@@ -10,3 +10,4 @@ Flerixhub was is made by heap#3866 & s15_#0338
 
 discord.gg/tUNgC7eG6W
 ]]
+print("work")
